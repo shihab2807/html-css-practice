@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(#C04C8D , #264EAE);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+div{
+    background-color: white;
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 25px rgb(113, 113, 113);
+}
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: auto;
+    background-color: rgb(209, 207, 207);
+    width: 280px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: none;
+}
+#checkbox{
+    display: inline-block;
+    text-align: left;
+    width: 15px;
+    height: 15px;
+    accent-color: #C04C8D;
+    margin-left:18px ;
+}
+label{
+    display:  inline-block;
+    text-align: left;
+    font-size: 15px;
+}
+button{
+    display: block;
+    background-color: #d2599e;
+    width: 280px;
+    height: 35px;
+    margin: 20px auto;
+    border: none;
+    color: white;
+    font-weight: 500;
+    box-shadow:  0px 0px 10px rgb(165, 165, 165);
+}
+span{
+    text-align: center;
+    display: block;
+    margin: 30px 0px 20px 0px; 
+    color: rgb(197, 197, 197);
+}
+a{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 4px 20px;
+    margin: 10px;  
+    border: solid 1px rgb(154, 154, 154);
+}
+#signup-link{
+    border: none;
+    padding: 0px;
+    text-decoration: underline;
+}
